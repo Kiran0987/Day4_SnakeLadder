@@ -44,8 +44,11 @@ public class Snake_Ladder {
 				break;
 			}	
 		}
+		System.out.println("Total number of times Dice rolled: "+diceRollCount);
+
 		if (position == 100) {
 			System.out.println(" Congratulations, you won!! ");	
 		}
+
 	}
 }
